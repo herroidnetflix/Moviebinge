@@ -230,7 +230,7 @@ server.listen(PORT, '0.0.0.0', async () => {
 
     // ══════════════════════════════════════════════
     //   PASTE YOUR NGROK TOKEN BETWEEN THE QUOTES:
-    const TOKEN = 'PASTE_YOUR_NGROK_TOKEN_HERE';
+    const TOKEN = '3KuRr38TlLGzKjdJzHx4nK5EIH2_4VJqgkiDbqXzUWhfiNU66';
     // ══════════════════════════════════════════════
 
     const listener = await ngrok.forward({ addr: PORT, authtoken: TOKEN });
